@@ -1,6 +1,6 @@
 {
   "name": "webpack-s3-plugin",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.1-rc.0",
   "description": "Uploads compiled assets to s3 after build",
   "main": "dist/s3_plugin.js",
   "scripts": {
@@ -36,7 +36,7 @@
     "lodash": "^4.13.0",
     "progress": "^1.1.8",
     "recursive-readdir": "^2.0.0",
-    "s3": "^4.4.0"
+    "s3": "https://github.com/10clouds/node-s3-client#4.4.1"
   },
   "devDependencies": {
     "babel-loader": "^6.2.4",
